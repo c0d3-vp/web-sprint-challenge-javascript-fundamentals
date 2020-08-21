@@ -1,0 +1,17 @@
+1. Briefly compare and contrast .forEach & .map (2-3 sentences max)
+    The .forEach method doesn't return anything, it calls the functin element in the array - it allows you to change the array. The .map method will return a value, in the form of a new array.
+
+2. Explain the difference between a callback and a higher order function.
+    A callback function is a function that is passed to another function.  A HOF is a function that takes another function as a paremeter and return a function to the caller.
+   
+3. What is closure?
+    A closure is when a secondary (or so on) function has access to the parent function, even after the parent function has closed. You have access to an outer function scope from within your current function.
+
+4. Describe the four rules of the 'this' keyword.
+    1. Window/Global Object Binding --> It relates to 'this' being attached to the window function it is nested within.
+    2. Implicit Binding --> Dot notation invokes the function
+    3. New binding --> Use of the word new when creating a new variable that invokes the constructor
+    4. Explicit binding --> allows you to use the call back method to pass reference to the "this" keyword   
+
+5. Why do we need super() in an extended class?
+    super() refers to the parent class.  We use it to call the parent class constructor in order to access the parent class properties and methods.
